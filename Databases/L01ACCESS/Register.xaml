@@ -1,0 +1,37 @@
+﻿<Page x:Class="L1DBGAMUYLO.Register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:L1DBGAMUYLO"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="450"
+      Title="Register">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.ColumnSpan="3" Grid.RowSpan="3" Fill="BurlyWood"></Rectangle>
+        <StackPanel Orientation="Vertical" Margin="10" Grid.Row="1" Grid.Column="1">
+            <Label Content="Форма регистрации" FontFamily="Arial" FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Center" Margin="0 20px"></Label>
+            <Label Content="Логин" FontFamily="Arial"></Label>
+            <TextBox MaxHeight="30" Name="loginInput"></TextBox>
+            <Label Content="Пароль" FontFamily="Arial"></Label>
+            <TextBox MaxHeight="30" Name="passInput"></TextBox>
+            <Label Content="Подтверждение пароля" FontFamily="Arial"></Label>
+            <TextBox MaxHeight="30" Name="passConfirm"></TextBox>
+            <Rectangle MinHeight="24" MaxHeight="48"></Rectangle>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Foreground="White" Background="DarkGreen" BorderThickness="0" Name="regButton" MinHeight="24" MaxHeight="64" Content="Зарегистрироваться" Click="regButton_Click" Width="125" Margin="0,0,10,0"></Button>
+                <Button Content="Назад ->" Width="100" Background="Transparent" Click="backToLoginButton_Click"  Name="backToLoginButton"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
