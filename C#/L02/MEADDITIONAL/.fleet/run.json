@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+        "type": "dotnet",
+        "name": "MEADDITIONAL",
+            "projectPath": "MEADDITIONAL.csproj",
+        "exePath": "bin/Debug/MEADDITIONAL.exe",
+        "args": [],
+    },
+
+    ]
+}

@@ -1,0 +1,16 @@
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\bin\Debug\Laba1.exe
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\bin\Debug\Laba1.pdb
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\L01-GAMUYLO.csproj.AssemblyReference.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\L01-GAMUYLO.csproj.SuggestedBindingRedirects.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\MainWindow.g.cs
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\App.g.cs
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1_MarkupCompile.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1_MarkupCompile.lref
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\MainWindow.baml
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1.g.resources
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\L01-GAMUYLO.csproj.GenerateResource.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\L01-GAMUYLO.csproj.CoreCompileInputs.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1.exe
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\Lab 1\Laba1\obj\Debug\Laba1.pdb

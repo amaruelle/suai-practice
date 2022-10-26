@@ -1,0 +1,16 @@
+D:\C# project WPF\Laba1\Laba1\bin\Debug\Laba1.exe.config
+D:\C# project WPF\Laba1\Laba1\bin\Debug\Laba1.exe
+D:\C# project WPF\Laba1\Laba1\bin\Debug\Laba1.pdb
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.csproj.AssemblyReference.cache
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.csproj.SuggestedBindingRedirects.cache
+D:\C# project WPF\Laba1\Laba1\obj\Debug\MainWindow.g.cs
+D:\C# project WPF\Laba1\Laba1\obj\Debug\App.g.cs
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1_MarkupCompile.cache
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1_MarkupCompile.lref
+D:\C# project WPF\Laba1\Laba1\obj\Debug\MainWindow.baml
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.g.resources
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.Properties.Resources.resources
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.csproj.GenerateResource.cache
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.csproj.CoreCompileInputs.cache
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.exe
+D:\C# project WPF\Laba1\Laba1\obj\Debug\Laba1.pdb

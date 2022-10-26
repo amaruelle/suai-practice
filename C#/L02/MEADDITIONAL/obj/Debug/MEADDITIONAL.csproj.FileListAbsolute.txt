@@ -1,0 +1,16 @@
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.csproj.AssemblyReference.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.csproj.SuggestedBindingRedirects.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MainWindow.g.cs
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\App.g.cs
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL_MarkupCompile.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL_MarkupCompile.lref
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\bin\Debug\MEADDITIONAL.exe.config
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\bin\Debug\MEADDITIONAL.exe
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\bin\Debug\MEADDITIONAL.pdb
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MainWindow.baml
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.g.resources
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.Properties.Resources.resources
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.csproj.GenerateResource.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.csproj.CoreCompileInputs.cache
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.exe
+C:\Users\amaru\OneDrive\Desktop\CODED\C#\MEADDITIONAL\obj\Debug\MEADDITIONAL.pdb
