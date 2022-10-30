@@ -18,3 +18,11 @@ Console.WriteLine("\n\nConstant Multiply Test\n----------\n");
 Console.WriteLine(test.MultiplyConstant(3));
 Console.WriteLine("\n\nMultiply Test\n----------\n");
 Console.WriteLine(test.Multiply(testOperand));
+
+Console.WriteLine();
+Console.WriteLine((test + testOperand).ToString());
+Console.WriteLine("\n\nMultiply Constant Test 2\n----------\n");
+Console.WriteLine((test*2).ToString());
+Console.WriteLine();
+Console.WriteLine("\n\nMultiply Test 2\n----------\n");
+Console.WriteLine((test * testOperand).ToString());

@@ -12,11 +12,20 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Border Grid.Column="1" CornerRadius="10" BorderThickness="3" BorderBrush="Transparent" Padding="4" Height="50" Margin="0, 0, 0, 50" Background="#F2DFD1">
-            <TextBox Name="PasswordInput" BorderBrush="Transparent" Foreground="#8D4F00" Background="#F2DFD1" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextAlignment="Center"></TextBox>
-        </Border>
-        <Border Grid.Column="1" CornerRadius="10" BorderThickness="3" BorderBrush="Transparent" Padding="4" Background="#8D4F00" Height="50" Margin="20, 0, 20, -100">
-            <Button Name="Check" Content="Check password" Foreground="#FFF" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" Click="Check_Click"></Button>
-        </Border>
+        <StackPanel Grid.Column="1">
+            <TextBlock Text="Displacement" Foreground="#8D4F00" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0, 50, 0, -30" TextAlignment="Center"></TextBlock>
+            <Border Grid.Column="1" CornerRadius="10" BorderThickness="3" BorderBrush="Transparent" Padding="4" Height="50" Margin="0, 50, 0, 50" Background="#F2DFD1" Width="80">
+                <TextBox Name="DisplacementInput" BorderBrush="Transparent" Foreground="#8D4F00" Background="#F2DFD1" FontFamily="Century Gothic" FontSize="16" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" TextAlignment="Center"></TextBox>
+            </Border>
+
+            <Border Grid.Column="1" CornerRadius="10" BorderThickness="3" BorderBrush="Transparent" Padding="4" Height="50" Background="#F2DFD1">
+                <TextBox Name="PasswordInput" BorderBrush="Transparent" Foreground="#8D4F00" Background="#F2DFD1" FontFamily="Century Gothic" FontSize="16" TextAlignment="Center"/>
+            </Border>
+
+            <Border Grid.Column="1" CornerRadius="10" BorderThickness="3" BorderBrush="Transparent" Padding="4" Background="#8D4F00" Height="50" Margin="20, 0, 20, -100">
+                <Button Name="Check" Content="Check password" Foreground="#FFF" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="16" FontWeight="Bold" Click="Check_Click"></Button>
+            </Border>
+        </StackPanel>
+      
     </Grid>
 </Window>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -126,6 +127,66 @@ namespace L03Console
                     for (int z = 0; z < this.Size; z++)
                     {
                         val += Math.Round(this.Values[i][z] * operand.Values[z][j], 2);
+                    }
+
+                    initial.Values[i][j] = Math.Round(val, 2);
+                }
+            }
+
+            return initial;
+        }
+
+        public static SquareMatrix operator +(SquareMatrix matrix1, SquareMatrix matrix2)
+        {
+            if (matrix1.Size != matrix2.Size) throw new Exception("ERROR: Invalid sizes");
+            SquareMatrix initial = new(matrix2.Size);
+            for (int i = 0; i < matrix1.Size; i++)
+            {
+                for (int j = 0; j < matrix1.Size; j++)
+                    initial.Values[i][j] = Math.Round(matrix1.Values[i][j] + matrix2.Values[i][j], 2);
+            }
+
+            return initial;
+        }
+
+        public static SquareMatrix operator -(SquareMatrix matrix1, SquareMatrix matrix2)
+        {
+            if (matrix1.Size != matrix2.Size) throw new Exception("ERROR: Invalid sizes");
+            SquareMatrix initial = new(matrix2.Size);
+            for (int i = 0; i < matrix1.Size; i++)
+            {
+                for (int j = 0; j < matrix1.Size; j++)
+                    initial.Values[i][j] = Math.Round(matrix1.Values[i][j] - matrix2.Values[i][j], 2);
+            }
+
+            return initial;
+        }
+
+        public static SquareMatrix operator *(SquareMatrix matrix1, int constant)
+        {
+            SquareMatrix initial = new(matrix1.Size);
+            for (int i = 0; i < matrix1.Size; i++)
+            {
+                for (int j = 0; j < matrix1.Size; j++)
+                    initial.Values[i][j] = Math.Round(matrix1.Values[i][j] * constant, 2);
+            }
+
+            return initial;
+        }
+
+        public static SquareMatrix operator *(SquareMatrix matrix1, SquareMatrix matrix2)
+        {
+            if (matrix2.Size != matrix2.Size) throw new Exception("ERROR: Incorrect size of operands.");
+
+            var initial = new SquareMatrix(matrix1.Size);
+            for (int i = 0; i < matrix1.Size; i++)
+            {
+                for (int j = 0; j < matrix1.Size; j++)
+                {
+                    double val = 0;
+                    for (int z = 0; z < matrix1.Size; z++)
+                    {
+                        val += Math.Round(matrix1.Values[i][z] * matrix2.Values[z][j], 2);
                     }
 
                     initial.Values[i][j] = Math.Round(val, 2);

@@ -25,12 +25,76 @@ namespace L03Merged
                 return ch;
             }
 
-            char d = char.IsUpper(ch) ? 'A' : 'a';
-            return (char)((((ch + displacement) - d) % 26) + d);
+            if (displacement < 0)
+            {
+                return DecipherSymbol(ch, Math.Abs(displacement));
+            }
+
+            char[] final = char.IsUpper(ch) ? _alphaUpper : _alphaLower;
+            displacement %= 26;
+
+            if (final == _alphaUpper)
+            {
+                foreach (char c in final)
+                {
+                    if (c == ch)
+                    {
+                        return (char)(ch + displacement > (final[final.Length - 1]) ? final[0] + displacement - (final[final.Length - 1] - ch + 1) : ch + displacement);
+                    }
+                }
+            }
+            else if (final == _alphaLower)
+            {
+                foreach (char c in final)
+                {
+                    if (c == ch)
+                    {
+                        return (char)(ch + displacement > (final[final.Length - 1]) ? final[0] + displacement - (final[final.Length - 1] - ch + 1) : ch + displacement);
+                    }
+                }
+            }
+            return (char)(ch);
+        }
+
+        public char DecipherSymbol(char ch, int displacement)
+        {
+            char[] final = char.IsUpper(ch) ? _alphaUpper : _alphaLower;
+
+            if (displacement < 0)
+            {
+                return EncipherSymbol(ch, Math.Abs(displacement));
+            }
+
+            displacement %= 26;
+
+            if (final == _alphaUpper)
+            {
+                foreach (char c in final)
+                {
+                    if (c == ch)
+                    {
+                        return (char)(ch - displacement < final[0] ? final[final.Length - 1] + 1 - (displacement - (ch - final[0])) : ch - displacement);
+                    }
+                }
+            }
+
+            if (final == _alphaLower)
+            {
+                foreach (char c in final)
+                {
+                    if (c == ch)
+                    {
+                        return (char)(ch - displacement < final[0] ? final[final.Length - 1] + 1 - (displacement - (ch - final[0])) : ch - displacement);
+                    }
+                }
+            }
+
+            return (char)(ch);
         }
 
         public string Decipher(string str, int displacement)
         {
+            displacement %= 26;
             return Encipher(str, 26 - displacement);
         }
 

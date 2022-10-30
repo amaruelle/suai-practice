@@ -25,19 +25,20 @@ namespace L03Merged
 
         private void Check_Click(object sender, RoutedEventArgs e)
         {
+            var disp = DisplacementInput.Text;
             var pass = new Password(PasswordInput.Text);
-            var passCipher = new CaesarCipher(PasswordInput.Text, 3);
+            var passCipher = new CaesarCipher(PasswordInput.Text, Convert.ToInt32(disp));
             MessageBox.Show(pass.GetHealth());
-            MessageBox.Show(passCipher.Encipher(PasswordInput.Text, 3));
+            MessageBox.Show(passCipher.Encipher(PasswordInput.Text, Convert.ToInt32(disp)));
 
-            StreamReader reader = new StreamReader(@"C:\Users\amaru\OneDrive\Desktop\CODED\C#\L03Merged\passwords.txt");
+            StreamReader reader = new StreamReader(@"C:\Users\amaru\OneDrive\Desktop\CODED\C#\L03\L03Passwords\passwords.txt");
             bool ready = false;
 
             while (!reader.EndOfStream)
             {
                 string iterable = reader.ReadLine();
                 if (iterable == "") break;
-                string comparable = passCipher.Encipher(PasswordInput.Text, 3) + iterable[iterable.Length - 1];
+                string comparable = passCipher.Encipher(PasswordInput.Text, Convert.ToInt32(disp)) + iterable[iterable.Length - 1];
                 if (iterable == comparable)
                 {
                     MessageBox.Show("Correct password.");
@@ -49,8 +50,8 @@ namespace L03Merged
 
             if (!ready)
             {
-                StreamWriter writer = new StreamWriter(@"C:\Users\amaru\OneDrive\Desktop\CODED\C#\L03Merged\passwords.txt", true);
-                writer.Write(passCipher.Encipher(PasswordInput.Text, 3));
+                StreamWriter writer = new StreamWriter(@"C:\Users\amaru\OneDrive\Desktop\CODED\C#\L03\L03Passwords\passwords.txt", true);
+                writer.Write(passCipher.Encipher(PasswordInput.Text, Convert.ToInt32(disp)));
                 writer.WriteLine('3');
                 MessageBox.Show("Password not found. Register in process...");
                 writer.Close();
